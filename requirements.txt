@@ -1,3 +1,4 @@
 dash
 sympy
 numpy
+gunicorn
