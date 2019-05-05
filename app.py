@@ -26,6 +26,7 @@ def slider_children(max_variables):
 
 app = dash.Dash(__name__)
 app.config.supress_callback_exceptions = True
+server = app.server
 
 
 app.layout = html.Div(children=[
